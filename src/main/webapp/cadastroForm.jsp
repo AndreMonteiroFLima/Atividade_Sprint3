@@ -48,7 +48,6 @@
 			</div>
 
 		<div class="input-container3 icSubmit">
-			<button type="submit" class="submit" name="bt2" form="form2">Fazer Pedido Json</button>
 			<button type="submit" class="submit" name="bt1" form="form2" formaction="${linkResourceView}">Fazer Pedido</button>
 		</div>
 		</form>

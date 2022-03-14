@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class TesteLeEstados {
     public static void main(String[] args) {
-        leArquivo("C:\\Users\\Andre\\eclipse-workspace\\ProjetoIndividualWeb\\src\\main\\resources\\EstadosComCEP.csv");
+        leArquivo("C:\\Users\\Andre\\eclipse-workspace\\ProjetoIndividualWeb2\\src\\main\\resources\\EstadosComCEP.csv");
     }
 
     public static void leArquivo(String str) {
