@@ -1,9 +1,18 @@
-body {
+padrao {
 	align-items: center;
 	background-color: #000;
 	display: flex;
 	justify-content: center;
 	height: 100vh;
+}
+
+.customColor2{
+	background-color: #15172b;
+	text-color: white;
+}
+
+.margemTop{
+	margin-top: 200px;
 }
 
 .formCustom {
