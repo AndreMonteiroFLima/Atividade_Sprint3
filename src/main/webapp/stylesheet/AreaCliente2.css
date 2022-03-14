@@ -1,0 +1,81 @@
+.custom{
+	background-color: #15172b;
+	text-color: white;
+}
+.customLeve{
+	background-color: #303245;
+	text-color: white;
+}
+
+.tbodyDiv{
+	max-height: clamp(200px,20vw,1000px);
+	overflow: auto;
+}
+
+.bdr {
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.input-container {
+	display: flex;
+	height: 100px;
+	position: relative;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.inner{
+	display: inline-block;
+}
+
+.input-container2 {
+	height: 100%;
+	position: relative;
+	width: 50%;
+}
+
+.ic1 {
+	margin-top: 20px;
+}
+
+.input {
+	background-color: #303245;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: #eee;
+	font-size: 18px;
+	height: 50%;
+	outline: 0;
+	padding: 4px 20px 0;
+	width: 50%;
+}
+.submit{
+	background-color: #08d;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: #eee;
+	cursor: pointer;
+	font-size: 18px;
+	height: 50px;
+	margin-top: 38px;
+	outline: 0;
+	text-align: center;
+	width: 30%;
+
+}
+
+.my-custom-scrollbar {
+	position: relative;
+	height: 200px;
+	overflow: auto;
+}
+.table-wrapper-scroll-y {
+	display: block;
+}
+
+.submit:active {
+	background-color: #06b;
+}
