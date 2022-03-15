@@ -5,6 +5,14 @@ body {
 	justify-content: center;
 	height: 100vh;
 }
+.form{
+	background-color: #15172b;
+	border-radius: 20px;
+	box-sizing: border-box;
+	height: 730px;
+	padding: 20px;
+	width: 720px;
+}
 
 .formCustom {
 	background-color: #15172b;

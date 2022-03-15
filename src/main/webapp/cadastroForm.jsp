@@ -11,7 +11,7 @@
 <title>Carrinho</title>
 </head>
 <body>
-<div class="form">
+<div class="formCustom">
 	<form action="${linkResource}" method="post" id="form2">
 			<div class="title">Bem-Vindo ${usuarioLogado}</div>
 			<div class="subtitle">Faça o Seu Pedido!</div>

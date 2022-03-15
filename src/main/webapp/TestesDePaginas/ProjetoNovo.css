@@ -10,12 +10,31 @@ padrao {
 	background-color: #15172b;
 	text-color: white;
 }
+.customColorLeve{
+	background-color: #303245;
+	color: white;
+}
+
+.move-left {
+	width: auto;
+	box-shadow: none;
+}
 
 .margemTop{
 	margin-top: 200px;
 }
 
 .formCustom {
+	background-color: #15172b;
+	border-radius: 20px;
+	box-sizing: border-box;
+	height: 630px;
+	padding: 20px;
+	width: 720px;
+	margin-left: 20px;
+}
+
+.formCustom2 {
 	background-color: #15172b;
 	border-radius: 20px;
 	box-sizing: border-box;
@@ -59,11 +78,15 @@ padrao {
 	width: 110%;
 }
 
+.move-up{
+	height: 100px;
+}
+
 .input-container3 {
 	height: 2px;
 	position: relative;
 	width: 100%;
-	margin-left: 105px;
+	margin-left: 180px;
 }
 
 .ic1 {
@@ -156,14 +179,14 @@ padrao {
 	top: -20px;
 	transform: translateY(0);
 	transition: transform 200ms;
-	width: 86px;
+	width: 106px;
 }
 
 .cut2 {
 	background-color: #15172b;
 	border-radius: 10px;
 	height: 20px;
-	left: 503px;
+	left: 430px;
 	position: absolute;
 	top: -20px;
 	transform: translateY(0);
@@ -218,7 +241,7 @@ padrao {
 .placeholder2 {
 	color: #65657b;
 	font-family: sans-serif;
-	left: 510px;
+	left: 440px;
 	line-height: 14px;
 	pointer-events: none;
 	position: absolute;
@@ -227,16 +250,16 @@ padrao {
 	top: 20px;
 }
 
-.input:focus ~ .placeholder, .input:not(:placeholder-shown) ~
-.placeholder {
+.input:focus ~ .placeholderCustom, .input:not(:placeholder-shown) ~
+.placeholderCustom {
 	transform: translateY(-30px) translateX(10px) scale(0.75);
 }
 
-.input:not(:placeholder-shown) ~ .placeholder {
+.input:not(:placeholder-shown) ~ .placeholderCustom {
 	color: #808097;
 }
 
-.input:focus ~ .placeholder {
+.input:focus ~ .placeholderCustom {
 	color: #dc2f55;
 }
 /*Place Holder Cep Destino*/
@@ -257,16 +280,16 @@ padrao {
 	color: #dc2f55;
 }
 
-.input2:focus ~ .placeholder, .input2:not(:placeholder-shown) ~
-.placeholder {
+.input2:focus ~ .placeholderCustom, .input2:not(:placeholder-shown) ~
+.placeholderCustom {
 	transform: translateY(-30px) translateX(10px) scale(0.75);
 }
 
-.input2:not(:placeholder-shown) ~ .placeholder {
+.input2:not(:placeholder-shown) ~ .placeholderCustom {
 	color: #808097;
 }
 
-.input2:focus ~ .placeholder {
+.input2:focus ~ .placeholderCustom {
 	color: #dc2f55;
 }
 

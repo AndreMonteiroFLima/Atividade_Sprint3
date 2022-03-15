@@ -10,7 +10,7 @@
     <title>Index</title>
 </head>
 <body>
-<div class="form">
+<div class="formCustom">
     <div class="title">Vamos começar?</div>
     <div class="input-container icSubmit">
         <a href="${linkLogin}"><button type="text" class="submit">Login!</button></a>
